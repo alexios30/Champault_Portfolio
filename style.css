@@ -108,11 +108,9 @@ p {
     align-items: center;
     width: calc(33.333% - 20px); 
     text-align: center;
-    filter: grayscale(50%);
+
 }
-#Compétence .skill:hover{
-    filter: grayscale(0%);
-}
+
 
 #Portfolio .content {
     display: flex;
