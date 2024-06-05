@@ -175,6 +175,7 @@ p {
     text-align: center;
     filter: grayscale(75%);
 }
+
 #Projet .skill:hover{
     filter: grayscale(0%);
 }
@@ -197,4 +198,20 @@ p {
 
 #Contact .content a img:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 14px; 
+    }
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%; 
+        height: auto;
+    }
+
 }
